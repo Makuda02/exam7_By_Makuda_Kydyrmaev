@@ -1,0 +1,80 @@
+[
+{
+  "model": "guestbooks.guest_books",
+  "pk": 1,
+  "fields": {
+    "name": "Makuda",
+    "email": "vip.link.96@mail.ru",
+    "description": "task1",
+    "start_date": "2023-12-09T08:22:40.375Z",
+    "end_date": "2023-12-09T08:22:40.375Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guestbooks.guest_books",
+  "pk": 2,
+  "fields": {
+    "name": "Argen",
+    "email": "vip.link.96@mail.ru",
+    "description": "task2",
+    "start_date": "2023-12-09T08:24:45.407Z",
+    "end_date": "2023-12-09T08:24:45.407Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guestbooks.guest_books",
+  "pk": 3,
+  "fields": {
+    "name": "Nurbek",
+    "email": "mk.daniyarov@mail.ru",
+    "description": "task3",
+    "start_date": "2023-12-09T08:25:08.034Z",
+    "end_date": "2023-12-09T08:25:08.034Z",
+    "status": "active"
+  }
+},
+{
+  "model": "guestbooks.guest_books",
+  "pk": 4,
+  "fields": {
+    "name": "lol1",
+    "email": "vip.link.96@mail.ru",
+    "description": "task4",
+    "start_date": "2023-12-09T08:25:25.567Z",
+    "end_date": "2023-12-09T08:25:25.567Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "guestbooks.guest_books",
+  "pk": 5,
+  "fields": {
+    "name": "lol2",
+    "email": "vip.link.96@mail.ru",
+    "description": "task23",
+    "start_date": "2023-12-09T08:25:36.993Z",
+    "end_date": "2023-12-09T08:25:36.993Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$zleNaBVgXlLREqveabLtfv$0LZozW+tTIwNYhav1rRlLAGBbCgppYz2PvsOv55sQk0=",
+    "last_login": "2023-12-09T08:21:58.326Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-12-09T08:21:43.425Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
