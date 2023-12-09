@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Delete Article{% endblock %}
+{% block menu %}<a class="nav-link" aria-current="page"  href="{% url 'index' %}">На главную</a>{% endblock %}
+
+{% block content %}
+<h1>Delete Guest-books</h1>
+
+    <h3>Вы уверены, что хотите удалить статью "{{ article.description }}"?</h3>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">ДА</button>
+</form>
+<a href="{% url 'article_view' pk=article.pk %}" class="btn btn-secondary">Нет</a>
+
+
+{% endblock %}
